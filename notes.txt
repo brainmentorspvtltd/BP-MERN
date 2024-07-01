@@ -1,0 +1,27 @@
+What is JavaScript?
+1. Client Side Scripting Language
+2. Scripting Lang. - Write Small Programs
+3. Official Name - ECMA Script - ES 2023
+ECMA - Setting the Standards
+Browser Implements the Standards
+Chromium
+Chrome Canary
+Chrome - Implement Fast
+4. Dynamically Typed Language
+5. JS Data Types Implicit
+6. Data Types
+a) undefined
+b) number - Success - (0-9), Decimal , Error (NaN, Infinity) isNaN,isFinite
+c) string - ‘ , “ , ` - String Interpolation
+D) boolean
+E) bigint (ES2020)
+F) Symbol (ES6/2015)
+g) null
+
+Coercion
+
+
+
+
+
+
