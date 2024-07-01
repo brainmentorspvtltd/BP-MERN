@@ -1,0 +1,220 @@
+var a ;
+undefined
+a= 10;
+10
+typeof a;
+'number'
+a='Amit';
+'Amit'
+typeof a;
+'string'
+a=true;
+true
+typeof a;
+'boolean'
+typeof(a);
+'boolean'
+typeof((a));
+'boolean'
+typeof(10+(20*3));
+'number'
+a=1;
+1
+typeof(a);
+'number'
+a=90.20;
+90.2
+typeof(a);
+'number'
+a=543546546546456;
+543546546546456
+typeof(a);
+'number'
+a= 6587465873657834685763487568734568767348;
+6.587465873657834e+39
+a=Number.MAX_SAFE_INTEGER;
+9007199254740991
+a++;
+9007199254740991
+a++;
+9007199254740992
+a++;
+9007199254740992
+a++;
+9007199254740992
+a++;
+9007199254740992
+a++;
+9007199254740992
+a++;
+9007199254740992
+a++;
+9007199254740992
+a=9007199254740992n;
+9007199254740992n
+typeof a;
+'bigint'
+a++';
+VM612:1 Uncaught SyntaxError: Invalid or unexpected token
+a++;
+9007199254740992n
+a++;
+9007199254740993n
+a++;
+9007199254740994n
+a++;
+9007199254740995n
+a++;
+9007199254740996n
+a++;
+9007199254740997n
+a++;
+9007199254740998n
+45253454535435n + 534534645645645n;
+579788100181080n
+a=123n;
+123n
+typeof a;
+'bigint'
+a=643645645645654n;
+643645645645654n
+a=BigInt("53464567765765754645645645");
+53464567765765754645645645n
+53456435n + 44444;
+VM930:1 Uncaught TypeError: Cannot mix BigInt and other types, use explicit conversions
+    at <anonymous>:1:11
+(anonymous) @ VM930:1
+10 +"Amit"
+'10Amit'
+// Coercion
+undefined
+10 + true;
+11
+10 + true + 20 - false + "Amit"
+'31Amit'
+undefined + 10;
+NaN
+typeof NaN;
+'number'
+undefined + undefined;
+NaN
+var c = undefined + undefined;
+undefined
+typeof c;
+'number'
+isNaN(c);
+true
+c;
+NaN
+isNaN(c)?0:c;
+0
+c;
+NaN
+c=100;
+100
+isNaN(c)?0:c;
+100
+c= 1000 * 0.10 + undefined;
+NaN
+isNaN(c)?"Some Problem in DB ":c;
+'Some Problem in DB '
+c=10100;
+10100
+isNaN(c)?"Some Problem in DB ":c;
+
+10100
+c = 1000/0;
+Infinity
+typeof c;
+'number'
+isFinite(c);
+false
+isFinite(c)?c:0;
+0
+a = 'Amit';
+'Amit'
+typeof a;
+'string'
+a = "Amit";
+'Amit'
+typeof a;
+'string'
+a = "Let's do it ";
+"Let's do it "
+a= `hkjgjkdfhkfdjhgkdfghk
+hfkjdshgdkjf
+ghdjfhgk
+ghdjfk`;
+'hkjgjkdfhkfdjhgkdfghk\nhfkjdshgdkjf\nghdjfhgk\nghdjfk'
+console.log(a);
+VM1820:1 hkjgjkdfhkfdjhgkdfghk
+hfkjdshgdkjf
+ghdjfhgk
+ghdjfk
+undefined
+var x = 10;
+undefined
+var y = 20;
+undefined
+var z = x + y;
+undefined
+"X is "+x +" Y is  "+y + " z is "+z;\
+VM2006:1 Uncaught SyntaxError: Invalid or unexpected token
+"X is "+x +" Y is  "+y + " z is "+z;
+'X is 10 Y is  20 z is 30'
+`X is ${x} Y is ${y} Z is ${z}`;
+'X is 10 Y is 20 Z is 30'
+var t = Symbol();
+undefined
+typeof t;
+'symbol'
+t;
+Symbol()
+var t2 = Symbol();
+undefined
+t == t2;
+false
+var arr = [10,20,30,40,50];
+undefined
+var t = 100;
+undefined
+var m = t;
+undefined
+m++;
+100
+m;
+101
+t;
+100
+m;
+101
+m + 20;
+121
+m;
+101
+m = m + 20;
+121
+arr;
+(5) [10, 20, 30, 40, 50]
+var g = arr;
+undefined
+g[0] =1111;
+1111
+g;
+(5) [1111, 20, 30, 40, 50]
+arr;
+(5) [1111, 20, 30, 40, 50]
+typeof arr;
+'object'
+arr.push(8888);
+6
+arr;
+(6) [1111, 20, 30, 40, 50, 8888]
+arr = null;
+null
+arr.push(1000);
+VM2664:1 Uncaught TypeError: Cannot read properties of null (reading 'push')
+    at <anonymous>:1:5
+(anonymous) @ VM2664:1
+typeof arr;
+'object'
