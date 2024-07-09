@@ -1,0 +1,17 @@
+div {
+  width: 50%;
+  height: 50vh;
+}
+
+.div1 {
+  background-color: red;
+  position: absolute;
+  right: 0;
+}
+
+.div2 {
+  position: relative;
+  background-color: blue;
+  width: 70%;
+  height: 80vh;
+}

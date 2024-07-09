@@ -1,0 +1,16 @@
+div, article, header, footer, aside, section{
+    background-color: darkseagreen;
+    border: 2px solid black;
+    height: 50px;
+}
+#left{
+    float: left;
+    width: 49%;
+}
+#right{
+    float: right;
+    width: 49%;
+}
+footer{
+    clear: both;
+}
