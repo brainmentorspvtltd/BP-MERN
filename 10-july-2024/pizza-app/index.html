@@ -10,8 +10,8 @@
     <header>
       <div class="flex justify-space-between align-item-center">
         <div class="left-side flex justify-space-between align-item-center">
-            <div class="menu">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+            <div class="menu" onclick="showDialogBox()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
             </div>
             <div class="logo">
                 <img src="https://pizzaonline.dominos.co.in/static/assets/logo_white.svg" alt="">
@@ -25,19 +25,89 @@
                 <label for="">Pick Up</label>
             </div>
 
-            <div class="location flex">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            <div class="location flex justify-space-between align-item-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
                <div> <h4>Select Location</h4>
                 <span>Select Loaction for accurate menu list</span></div>
             </div>
 
-            <div class="my-account flex">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-user-round"><path d="M18 20a6 6 0 0 0-12 0"/><circle cx="12" cy="10" r="4"/><circle cx="12" cy="12" r="10"/></svg>
+            <div class="my-account flex justify-space-between align-item-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-user-round"><path d="M18 20a6 6 0 0 0-12 0"/><circle cx="12" cy="10" r="4"/><circle cx="12" cy="12" r="10"/></svg>
                 <div><h3>My Account</h3>
                     <span><a href="#">Login</a> | <a href="#">Sign Up</a></span></div>
             </div>
         </div>
       </div>
     </header>
+
+    <section class="dialog-box" id="dialog">
+        <div class="dialog-menu">
+
+        </div>
+    </section>
+
+    <section id="subNavBar">
+        <a href="#">Home</a>
+        <a href="#">Recomendation</a>
+    </section>
+
+    <div class="grid col-layout-two">
+        <main>
+           <section>
+            <h1>Recomendation</h1>
+            <div class="grid col-layout-three">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="https://images.dominos.co.in/nextgen-catalog/media/prod/Dominos/menu/10ddf620-ae20-477f-b4b2-9bce1ded021d_BlazingOnionPaprikacartmenu.jpeg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <h3>329
+                                Blazing Onion & PaprikaHot</h3>
+                                <p>& spicy pizza with onion & red paprika toppings and a new spicy peri peri sauce on a Domino's cheesy base.</p>
+                        </div>
+                        <div class="card-action"></div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="https://images.dominos.co.in/nextgen-catalog/media/prod/Dominos/menu/10ddf620-ae20-477f-b4b2-9bce1ded021d_BlazingOnionPaprikacartmenu.jpeg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <h3>329
+                                Blazing Onion & PaprikaHot</h3>
+                                <p>& spicy pizza with onion & red paprika toppings and a new spicy peri peri sauce on a Domino's cheesy base.</p>
+                        </div>
+                        <div class="card-action"></div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="https://images.dominos.co.in/nextgen-catalog/media/prod/Dominos/menu/10ddf620-ae20-477f-b4b2-9bce1ded021d_BlazingOnionPaprikacartmenu.jpeg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <h3>329
+                                Blazing Onion & PaprikaHot</h3>
+                                <p>& spicy pizza with onion & red paprika toppings and a new spicy peri peri sauce on a Domino's cheesy base.</p>
+                        </div>
+                        <div class="card-action"></div>
+                    </div>
+                </div>
+            </div>
+           </section>
+        </main>
+        <aside>
+            <h1>Empty Cart</h1>
+        </aside>
+    </div>
+
+    <script>
+        function showDialogBox(){
+           const dialog = document.querySelector("#dialog");
+           dialog.classList.toggle("active");
+        }
+    </script>
 </body>
 </html>
